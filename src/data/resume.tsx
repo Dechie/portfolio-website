@@ -135,8 +135,31 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/spotifyapp.png",
       video: "/spotifyapp.mp4",
+    },
+    {
+      title: "Electronics Shop",
+      href: "",
+      dates: "Dec 2023 - Jul 2024",
+      active: false,
+      description: "A Mobile and Laptop buying platform with Laravel Backend and Flutter frontend",
+      technologies: [
+        "Flutter",
+        "Dart",
+        "Riverpod",
+        "Laravel",
+        "Mysql",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Dechie/spotify-clone",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/electroshop.png",
+      video: "/electroshop.mp4",
     },
     {
       title: "Health Guard",
@@ -163,7 +186,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/healthguard.png",
       video: "/healthguard.mp4", 
     },
     {
@@ -185,7 +208,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/newsapp.png",
       video: "/newsapp.mp4",
     },
     {
@@ -204,7 +227,7 @@ export const DATA = {
       links: [
         
       ],
-      image: "",
+      image: "/exploreapp.png",
       video: "/exploreapp.mp4",
     },
     {
@@ -226,7 +249,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/eisenhowerapp.png",
       video: "/eisenhowerapp.mp4",
     },
   ],
