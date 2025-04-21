@@ -100,6 +100,18 @@ export const DATA = {
       description:
         "Worked with Flutter MVVM architecture, developed a number of apps, integrated backend API to Flutter app.",
     },
+    {
+      company: "Private Clients",
+      href: "",
+      badges: [],
+      location: "Remote",
+      title: "Flutter Developer(Contract)",
+      logoUrl: "/dev.jpg",
+      start: "September 2024",
+      end: "April 2025",
+      description:
+        "Developing High quality mobile apps for private clients.",
+    },
     
   ],
   education: [
