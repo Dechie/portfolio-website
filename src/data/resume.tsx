@@ -52,7 +52,7 @@ export const DATA = {
 
         navbar: true,
       },
-      
+
       email: {
         name: "Send Email",
         url: "dechassa0@gmail.com",
@@ -109,10 +109,8 @@ export const DATA = {
       logoUrl: "/dev.jpg",
       start: "September 2024",
       end: "April 2025",
-      description:
-        "Developing High quality mobile apps for private clients.",
+      description: "Developing High quality mobile apps for private clients.",
     },
-    
   ],
   education: [
     {
@@ -123,9 +121,26 @@ export const DATA = {
       start: "2021",
       end: "2025",
     },
-    
   ],
   projects: [
+    {
+      title: "Fit track",
+      href: "",
+      dates: "April 2025",
+      active: true,
+      description:
+        "A simple and intuitive app that lets gym goers record and track their exercises sessions to the smallest detail.",
+      technologies: ["Flutter", "Dart", "Firebase"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Dechie/FitTrack",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/fittrack.jpg",
+      video: "/fittrack.mp4",
+    },
     {
       title: "Spotify Clone",
       href: "",
@@ -133,13 +148,7 @@ export const DATA = {
       active: false,
       description:
         "A spotify clone application made with Flutter and custom Laravel backend. Including additional feature for users to upload their own music.",
-      technologies: [
-        "Flutter",
-        "Dart",
-        "Laravel",
-        "Mysql",
-        "Provider",
-      ],
+      technologies: ["Flutter", "Dart", "Laravel", "Mysql", "Provider"],
       links: [
         {
           type: "Source",
@@ -155,14 +164,9 @@ export const DATA = {
       href: "",
       dates: "Dec 2023 - Jul 2024",
       active: false,
-      description: "A Mobile and Laptop buying platform with Laravel Backend and Flutter frontend",
-      technologies: [
-        "Flutter",
-        "Dart",
-        "Riverpod",
-        "Laravel",
-        "Mysql",
-      ],
+      description:
+        "A Mobile and Laptop buying platform with Laravel Backend and Flutter frontend",
+      technologies: ["Flutter", "Dart", "Riverpod", "Laravel", "Mysql"],
       links: [
         {
           type: "Source",
@@ -180,12 +184,7 @@ export const DATA = {
       active: true,
       description:
         "Collaborated with team mates to develop mental-health solution platform that connects university students with professionals",
-      technologies: [
-        "Laravel",
-        "Blade template",
-        "Mysql",
-        "TailwindCSS",
-      ],
+      technologies: ["Laravel", "Blade template", "Mysql", "TailwindCSS"],
       links: [
         {
           type: "Website",
@@ -199,20 +198,15 @@ export const DATA = {
         },
       ],
       image: "/healthguard.png",
-      video: "/healthguard.mp4", 
+      video: "/healthguard.mp4",
     },
     {
       title: "News App",
       href: "",
       dates: "August 2024 - October 2024",
       active: true,
-      description:
-        "Developed a news aggregator app UI mockup",
-      technologies: [
-        "Flutter",
-        "Dart",
-        "Stacked Architecture",
-      ],
+      description: "Developed a news aggregator app UI mockup",
+      technologies: ["Flutter", "Dart", "Stacked Architecture"],
       links: [
         {
           type: "Source",
@@ -230,15 +224,8 @@ export const DATA = {
       active: true,
       description:
         "Collaborated with team members to design and develop a culture explorer app for all cultures and ceremnies in Ethiopia.",
-      technologies: [
-        "Flutter",
-        "Provider",
-        "stacked architecture",
-        "Laravel",
-      ],
-      links: [
-        
-      ],
+      technologies: ["Flutter", "Provider", "stacked architecture", "Laravel"],
+      links: [],
       image: "/exploreapp.png",
       video: "/exploreapp.mp4",
     },
@@ -249,11 +236,7 @@ export const DATA = {
       active: true,
       description:
         "Designed and developed a productivity and task management tool.",
-      technologies: [
-        "Flutter",
-        "Hive",
-        "Riverpod",
-      ],
+      technologies: ["Flutter", "Hive", "Riverpod"],
       links: [
         {
           type: "Source",
@@ -271,7 +254,7 @@ export const DATA = {
       dates: "November 23rd - 25th, 2018",
       location: "London, Ontario",
       description:
-      "Collaborated with team mates to develop mental health platform that connects students with mental health professionals", 
+        "Collaborated with team mates to develop mental health platform that connects students with mental health professionals",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
@@ -386,6 +369,5 @@ export const DATA = {
         },
       ],
     },
-   
   ],
 } as const;
