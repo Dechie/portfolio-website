@@ -142,6 +142,23 @@ export const DATA = {
       video: "/passwordmanager.mp4",
     },
     {
+      title: "News App",
+      href: "",
+      dates: "August 2024 - October 2024",
+      active: true,
+      description: "Developed a news aggregator app UI mockup",
+      technologies: ["Flutter", "Dart", "Stacked Architecture"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Dechie/my-news-app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/newsapp.png",
+      video: "/newsapp.mp4",
+    },
+    {
       title: "Fit track",
       href: "",
       dates: "Apr 2025",
@@ -159,7 +176,18 @@ export const DATA = {
       image: "/fittrack.jpg",
       video: "/fittrack.mp4",
     },
-
+    {
+      title: "Et-explore",
+      href: "",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        "Collaborated with team members to design and develop a culture explorer app for all cultures and ceremnies in Ethiopia.",
+      technologies: ["Flutter", "Provider", "stacked architecture", "Laravel"],
+      links: [],
+      image: "/exploreapp.png",
+      video: "/exploreapp.mp4",
+    },
     {
       title: "Spotify Clone",
       href: "",
@@ -218,35 +246,6 @@ export const DATA = {
       ],
       image: "/healthguard.png",
       video: "/healthguard.mp4",
-    },
-    {
-      title: "News App",
-      href: "",
-      dates: "August 2024 - October 2024",
-      active: true,
-      description: "Developed a news aggregator app UI mockup",
-      technologies: ["Flutter", "Dart", "Stacked Architecture"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/Dechie/my-news-app",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/newsapp.png",
-      video: "/newsapp.mp4",
-    },
-    {
-      title: "Et-explore",
-      href: "",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Collaborated with team members to design and develop a culture explorer app for all cultures and ceremnies in Ethiopia.",
-      technologies: ["Flutter", "Provider", "stacked architecture", "Laravel"],
-      links: [],
-      image: "/exploreapp.png",
-      video: "/exploreapp.mp4",
     },
     {
       title: "Eisenhower Matrix Todo",
