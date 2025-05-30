@@ -16,11 +16,12 @@ export const DATA = {
     "Flutter",
     "Dart",
     "Laravel",
+    "Firebase",
+    "Java (Springboot)",
     "Python",
     "Jupyter",
     "Postgres",
     "Mariadb",
-    "Java",
     "C++",
   ],
   navbar: [
@@ -146,7 +147,7 @@ export const DATA = {
       href: "",
       dates: "August 2024 - October 2024",
       active: true,
-      description: "Developed a news aggregator app UI mockup",
+      description: "Developed a UI implementation for a news aggregator application.",
       technologies: ["Flutter", "Dart", "Stacked Architecture"],
       links: [
         {
