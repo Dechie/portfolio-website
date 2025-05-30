@@ -124,9 +124,27 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Password Manager",
+      href: "",
+      dates: "Aug 2024 - Dec 2024",
+      active: true,
+      description:
+        "A highly secure application to store, view and edit your passwords, guarded by pin and secured by advanced encryption algorithms like AES. All crud operatios are guarded by a pin that can only be inserted via app's internal keyboard.",
+      technologies: ["Flutter", "Dart", "Firebase"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Dechie/password-manager",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/passwordmanager.jpg",
+      video: "/passwordmanager.mp4",
+    },
+    {
       title: "Fit track",
       href: "",
-      dates: "April 2025",
+      dates: "Apr 2025",
       active: true,
       description:
         "A simple and intuitive app that lets gym goers record and track their exercises sessions to the smallest detail.",
@@ -141,6 +159,7 @@ export const DATA = {
       image: "/fittrack.jpg",
       video: "/fittrack.mp4",
     },
+
     {
       title: "Spotify Clone",
       href: "",
