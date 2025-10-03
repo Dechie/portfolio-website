@@ -36,21 +36,18 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/Dechie",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://linkedin.com/in/dechasa-teshome-013021277",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       telegram: {
         name: "Telegram",
         url: "https://t.me/Twhd_O",
         icon: Icons.telegram,
-
         navbar: true,
       },
 
@@ -58,7 +55,6 @@ export const DATA = {
         name: "Send Email",
         url: "dechassa0@gmail.com",
         icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -66,28 +62,26 @@ export const DATA = {
 
   work: [
     {
-      company: "Icog Labs",
-      href: "https://icog-labs.com/",
+      company: "Private Clients",
+      href: "",
       badges: [],
-      location: "Hybrid",
-      title: "Flutter and ML intern",
-      logoUrl: "/icoglabs.png",
-      start: "April 2023",
-      end: "September 2023",
-      description:
-        "Worked on ML and deep learning, converted figma design to Flutter UI, and integrated REST API.",
+      location: "Remote",
+      title: "Flutter Developer(Contract)",
+      logoUrl: "/dev.png",
+      start: "September 2024",
+      end: "August 2025",
+      description: "Developing High quality mobile apps for private clients.",
     },
     {
-      company: "AfroEl Technologies",
+      company: "Abay QR",
+      href: "",
       badges: [],
-      href: "https://afroel.com/",
       location: "Remote",
-      title: "Flutter & Laravel developer",
-      logoUrl: "/afroel.jpg",
-      start: "November 2023",
-      end: "January 2024",
-      description:
-        "Designed and developed multi-tenant logistics system with Laravel backend and Flutter application",
+      title: "Flutter Developer",
+      logoUrl: "/abayqr.jpg",
+      start: "February 2025",
+      end: "July 2025",
+      description: "Developed Desktop Windows App using Flutter",
     },
     {
       company: "Kuraz Technologies",
@@ -102,15 +96,28 @@ export const DATA = {
         "Worked with Flutter MVVM architecture, developed a number of apps, integrated backend API to Flutter app.",
     },
     {
-      company: "Private Clients",
-      href: "",
+      company: "AfroEl Technologies",
       badges: [],
+      href: "https://afroel.com/",
       location: "Remote",
-      title: "Flutter Developer(Contract)",
-      logoUrl: "/dev.jpg",
-      start: "September 2024",
-      end: "April 2025",
-      description: "Developing High quality mobile apps for private clients.",
+      title: "Flutter & Laravel developer",
+      logoUrl: "/afroel.jpg",
+      start: "November 2023",
+      end: "January 2024",
+      description:
+        "Designed and developed multi-tenant logistics system with Laravel backend and Flutter application",
+    },
+    {
+      company: "Icog Labs",
+      href: "https://icog-labs.com/",
+      badges: [],
+      location: "Hybrid",
+      title: "Flutter and ML intern",
+      logoUrl: "/icoglabs.png",
+      start: "April 2023",
+      end: "September 2023",
+      description:
+        "Worked on ML and deep learning, converted figma design to Flutter UI, and integrated REST API.",
     },
   ],
   education: [
@@ -147,7 +154,8 @@ export const DATA = {
       href: "",
       dates: "August 2024 - October 2024",
       active: true,
-      description: "Developed a UI implementation for a news aggregator application.",
+      description:
+        "Developed a UI implementation for a news aggregator application.",
       technologies: ["Flutter", "Dart", "Stacked Architecture"],
       links: [
         {
@@ -267,126 +275,40 @@ export const DATA = {
       video: "/eisenhowerapp.mp4",
     },
   ],
-  hackathons: [
+  clientProjects: [
     {
-      title: "GDSC Hackathon",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "E learning Application",
+      href: "",
+      dates: "Dec 2024 - May 2025",
+      client: "Excelet Academy",
       description:
-        "Collaborated with team mates to develop mental health platform that connects students with mental health professionals",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+        "Built a fully functional Flutter application that helps students from 1-12 grades as well as university, in finding course materials and previous year exams for national exams.",
+      image: "/excelet.jpg",
+      technologies: ["Flutter", "Laravel", "Riverpod"],
       links: [],
+      video: "/excelet.mp4",
     },
     {
-      title: "",
-      dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      title: "Data Visualization app",
+      href: "",
+      dates: "Sep 2024 - Dec 2024",
+      client: "Ethiopian Customs Commission",
+      description: "Built a data visualization application",
+      technologies: ["Flutter", "Laravel", "Riverpod"],
       links: [],
+      image: "/eccdatavis.jpg",
     },
     {
-      title: "FirstNet Public Safety Hackathon",
-      dates: "March 23rd - 24th, 2018",
-      location: "San Francisco, California",
+      title: "Event Management App",
+      href: "",
+      dates: "Jul 2025 - Aug 2025",
+      client: "",
       description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
-      icon: "public",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
+        "Built Application for managing workforce trainings, attendance management and user entry to halls via qr codes",
+      technologies: ["Flutter", "BloC"],
       links: [],
-    },
-    {
-      title: "DeveloperWeek Hackathon",
-      dates: "February 3rd - 4th, 2018",
-      location: "San Francisco, California",
-      description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
-      links: [
-        {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
-        },
-      ],
-    },
-    {
-      title: "HackDavis",
-      dates: "January 20th - 21st, 2018",
-      location: "Davis, California",
-      description:
-        "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
-      win: "Best Data Hack",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-      links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/my6footprint",
-        },
-        {
-          title: "ML",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/my6footprint-machine-learning",
-        },
-        {
-          title: "iOS",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/CarbonWallet",
-        },
-        {
-          title: "Server",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/wallet6-server",
-        },
-      ],
-    },
-    {
-      title: "ETH Waterloo",
-      dates: "October 13th - 15th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a blockchain application for doctors and pharmacists to perform trustless transactions and prevent overdosage in patients.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png",
-      links: [
-        {
-          title: "Organization",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ethdocnet",
-        },
-      ],
-    },
-    {
-      title: "Hack The North",
-      dates: "September 15th - 17th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a virtual reality application allowing users to see themselves in third person.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Streamer Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/justinmichaud/htn2017",
-        },
-        {
-          title: "Client Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "",
-        },
-      ],
+      image: "/event-manage.jpg",
     },
   ],
+  hackathons: [],
 } as const;
