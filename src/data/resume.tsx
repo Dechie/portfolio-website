@@ -8,9 +8,9 @@ export const DATA = {
   location: "Addis Ababa, Ethiopia",
   locationLink: "",
   description:
-    "I'm known by my telegram alias \"logos\". I'm a Passionate Software Engineer. I craft beautiful mobile apps. I love programming.",
+    "I'm a Passionate Software Engineer. I craft beautiful mobile apps. I love programming.",
   summary:
-    "I am currently studying Software Engineering at AASTU. I love everything about software and computers. When I'm not busy building mobile apps and powerful backends, I play around with my Linux system and experiment with niche languages like Haskell and Rust. And I am highly enthusiastic about the latest developments in AI/ML.",
+    "I am Software Engineering graduate from AASTU. I love everything about software and computers. When I'm not busy building mobile apps and powerful backends, I play around with my Linux system and experiment with niche languages like Haskell and Rust. And I am highly enthusiastic about the latest developments in AI/ML.",
   avatarUrl: "/me.jpg",
   skills: [
     "Flutter",
@@ -174,7 +174,7 @@ export const DATA = {
       active: true,
       description:
         "A simple and intuitive app that lets gym goers record and track their exercises sessions to the smallest detail.",
-      technologies: ["Flutter", "Dart", "Firebase"],
+      technologies: ["Flutter", "Dart", "Firebase Auth", "Firestore"],
       links: [
         {
           type: "Source",
