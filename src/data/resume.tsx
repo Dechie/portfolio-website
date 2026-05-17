@@ -132,6 +132,18 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Screen Recorder",
+      href: "",
+      dates: "2025",
+      active: true,
+      description:
+        "A Linux (Wayland) screen recorder made with Flutter and c++ platform channels",
+      technologies: ["Flutter", "Dart", "C++"],
+      links: [],
+      image: "",
+      video: "/screen_recorder.mp4",
+    },
+    {
       title: "Password Manager",
       href: "",
       dates: "Aug 2024 - Dec 2024",
@@ -308,20 +320,6 @@ export const DATA = {
       technologies: ["Flutter", "BloC"],
       links: [],
       image: "/event-manage.jpg",
-    },
-  ],
-  sideProjects: [
-    {
-      title: "Screen Recorder",
-      href: "",
-      dates: "2025",
-      active: true,
-      description:
-        "A Linux (Wayland) screen recorder made with Flutter and c++ platform channels",
-      technologies: ["Flutter", "Dart", "C++"],
-      links: [],
-      image: "",
-      video: "/screen_recorder.mp4",
     },
   ],
   hackathons: [],
