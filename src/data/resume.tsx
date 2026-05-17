@@ -310,5 +310,19 @@ export const DATA = {
       image: "/event-manage.jpg",
     },
   ],
+  sideProjects: [
+    {
+      title: "Screen Recorder",
+      href: "",
+      dates: "2025",
+      active: true,
+      description:
+        "A Linux (Wayland) screen recorder made with Flutter and c++ platform channels",
+      technologies: ["Flutter", "Dart", "C++"],
+      links: [],
+      image: "",
+      video: "/screen_recorder.mp4",
+    },
+  ],
   hackathons: [],
 } as const;
